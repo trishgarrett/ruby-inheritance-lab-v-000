@@ -8,6 +8,10 @@ class Student < User
 
   def learn(string_of_knowldege)
     @knowledge << string_of_knowldege
-  end  
+  end
+
+  def knowledge
+    @knowledge
+  end    
 
 end
