@@ -3,7 +3,7 @@ require_relative './user.rb'
 class Student < User
 
   def initialize
-    @knoledge = []
+    @knowledge = []
   end
 
   def learn(string_of_knowldege)
@@ -12,5 +12,5 @@ class Student < User
 
   def knowledge
     @knowledge
-  end    
+  end
 end
